@@ -338,6 +338,7 @@ body {
         padding: 200px 30px 120px 30px;
         flex-direction: row;
         gap: 40px;
+        border-bottom: 1px solid #EAEAEA;
     }
 
     .experience__wrapper { 
@@ -516,4 +517,47 @@ body {
         width: 100%;
         object-fit: cover;
     }
+}
+
+@media screen and (min-width: 1200px) {
+    .service__container { 
+        padding: 100px calc(100vw / 8.3478) 140px 30px;
+    }
+
+    .service__list { 
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .service__disc { 
+        display: flex;
+        flex-direction: column;
+        max-width: 495px;
+    }
+
+    .service__container h3 { 
+        color: #000;
+        font-family: "Raleway";
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .service__disc-subtitle { 
+        font-size: 21px;
+        font-weight: 400;
+        color: #8C8C8C;
+        margin-top: 10px;
+    }
+
+    .service__disc-subtitle span { 
+        color: #F0C693;
+        font-weight: 600;
+    }
+
+    .service__disc-image { 
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    
 }
